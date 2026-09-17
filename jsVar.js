@@ -147,10 +147,13 @@ let number4=Math.floor(number/1000);
 let invers=number1*1000 + number2*100+number3*10+number4
 console.log(invers)
 Challenge 13 : Affichage des valeurs binaire et hexadécimale équivalentes
-*/
 
+*/
 
 let nombre = Number(prompt("Entrez un nombre entier :"));
 let binaire = nombre.toString(2); 
 let hexadecimal = nombre.toString(16); 
 console.log(`Binaire : ${binaire}\n Hexadécimal : ${hexadecimal}`); 
+
+
+
