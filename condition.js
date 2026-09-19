@@ -126,7 +126,6 @@ console.log(jour + "-" + nomMois + "-" + annee);
         
 
 // Challenge 12 : Comparaison d'Instants
-*/    
 
 let instant1 = prompt("Entrez le premier instant (HH:MM:SS) :");
 let instant2 = prompt("Entrez le deuxième instant (HH:MM:SS) :");
@@ -151,5 +150,8 @@ if (total1 < total2) {
     console.log("Le deuxième instant vient avant le premier.");
 } else {
     console.log("Il s'agit du même instant.");
+
 }
 
+
+*/    
