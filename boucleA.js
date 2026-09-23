@@ -61,8 +61,7 @@ console.log(somme)
 // }
 
 Écrivez un programme JavaScript qui calcule la puissance d'un nombre en utilisant une boucle while. Le programme doit demander la base (positive) et l'exposant (non négatif) et afficher la valeur résultante.
-
-*/
+// Challenge 9 : Calcul de la Puissance
 
 let base = Number(prompt("Saisir la base :"));
 let exposant = Number(prompt("Saisir l'exposant :"));
@@ -78,6 +77,34 @@ while (i < exposant) {
 console.log("Résultat :", resultat);
 
 
+let n1=Number(prompt("saisiun nomber : "))
+
+let somme=0;
+let cmp=0;
+
+while(n1!==0){
+    somme+=n1
+    cmp++
+    n1=Number(prompt("saisiun nomber : "))
+    
+}
+console.log(`la moyen est : ${somme/cmp}`)
+
+
+
+*/
+// let n1=Number(prompt("saisiun nomber : "))
+
+// let lest=[4,3,21,3]
+
+// for (let i =0 ;i<lest.length;i++){
+//     for(j=0;j<lest.length;j++){
+//         if(lest[j]>lest[j+1]){
+//             [lest[j],lest[j+1]]=[lest[j+1],lest[j]]
+//         }
+//     }
+// }
+// console.log(lest)
 
 
 
